@@ -6,10 +6,22 @@ import item from '@/components/item'
 import detail from '@/components/detail'
 import mytest from '@/components/mytest'
 import test from '@/components/test'
+import simple_cart from '@/components/simple_cart'
+import register from '@/components/register'
 
 Vue.use(Router)
 
 var routes = [
+        {
+          path:'/register',
+          name:'register',
+          component:register
+        },
+        {
+          path:'/simple_cart',
+          name:'simple_cart',
+          component:simple_cart
+        },
         {
           path:'/test',
           name:'test',
